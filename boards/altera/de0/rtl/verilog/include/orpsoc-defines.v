@@ -44,8 +44,8 @@
 //`define ADV_DBG_IF
 
 // JTAG TAP defines
-`define GENERIC_JTAG_TAP
-//`define ALTERA_JTAG_TAP
+//`define GENERIC_JTAG_TAP
+`define ALTERA_JTAG_TAP
 
 `define VERSATILE_SDRAM
 //`define RAM_WB
