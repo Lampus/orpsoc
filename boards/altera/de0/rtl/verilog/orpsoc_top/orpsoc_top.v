@@ -1383,10 +1383,10 @@ module orpsoc_top
        .CLK_FREQ_MHZ			(100),	// sdram_clk freq in MHZ
        .POWERUP_DELAY			(200),	// power up delay in us
        .WB_PORTS			(3),	// Number of wishbone ports
-       .ROW_WIDTH			(13),	// Row width
-       .COL_WIDTH			(9),	// Column width
+       .ROW_WIDTH			(12),	// Row width
+       .COL_WIDTH			(8),	// Column width
        .BA_WIDTH			(2),	// Ba width
-       .tCAC				(2),	// CAS Latency
+       .tCAC				(3),	// CAS Latency
        .tRAC				(5),	// RAS Latency
        .tRP				(2),	// Command Period (PRE to ACT)
        .tRC				(7),	// Command Period (REF to REF / ACT to ACT)
