@@ -29,8 +29,8 @@
 //
 #define SDRAM_BASE                 0x0
 //#define MT48LC32M16A2 // 64MB SDRAM part
-#define MT48LC16M16A2 // 32MB SDRAM part
-//#define MT48LC4M16A2 // 8MB SDRAM part
+//#define MT48LC16M16A2 // 32MB SDRAM part
+#define MT48LC4M16A2 // 8MB SDRAM part
 
 #define FLASHROM_BASE       0xcf000000
 #define FLASHROM_SIZE            0x100
